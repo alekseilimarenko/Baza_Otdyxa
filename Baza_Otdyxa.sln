@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baza_Otdyxa", "Baza_Otdyxa\Baza_Otdyxa.csproj", "{5A2B0505-9BB0-4B2A-89DE-8A20EA1B9770}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baza_Otdyxa.WEB", "Baza_Otdyxa\Baza_Otdyxa.WEB.csproj", "{5A2B0505-9BB0-4B2A-89DE-8A20EA1B9770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baza_Otdyxa.DAL", "Baza_Otdyxa.DAL\Baza_Otdyxa.DAL.csproj", "{0381D8F9-07B0-4797-BFA6-218256053066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baza_Otdyxa.BLL", "Baza_Otdyxa.BLL\Baza_Otdyxa.BLL.csproj", "{42DA4A14-7DE4-4ACF-93C0-4F21349CB600}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{5A2B0505-9BB0-4B2A-89DE-8A20EA1B9770}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A2B0505-9BB0-4B2A-89DE-8A20EA1B9770}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A2B0505-9BB0-4B2A-89DE-8A20EA1B9770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0381D8F9-07B0-4797-BFA6-218256053066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0381D8F9-07B0-4797-BFA6-218256053066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0381D8F9-07B0-4797-BFA6-218256053066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0381D8F9-07B0-4797-BFA6-218256053066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42DA4A14-7DE4-4ACF-93C0-4F21349CB600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DA4A14-7DE4-4ACF-93C0-4F21349CB600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DA4A14-7DE4-4ACF-93C0-4F21349CB600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DA4A14-7DE4-4ACF-93C0-4F21349CB600}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
